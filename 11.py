@@ -20,7 +20,4 @@ for task in tasks:
         task_queue.append(task)  # Додавання на низький пріоритет
         print(f"Додано повільне завдання: {task['name']}")
 
-# Виконання завдань
-while task_queue:
-    task = task_queue.popleft()
-    print(f"Виконується {task['type']} завдання: {task['name']}")
+
